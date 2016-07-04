@@ -79,6 +79,12 @@ namespace TestingApplication.Controllers
             return View();
         }
 
+        public ActionResult testing123(string returnUrl)
+        {
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
         //
         // POST: /Account/Login
         [HttpPost]
