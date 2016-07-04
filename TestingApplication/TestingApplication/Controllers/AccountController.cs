@@ -73,7 +73,7 @@ namespace TestingApplication.Controllers
             return View();
         }
 
-        public ActionResult signouttest(string returnUrl)
+        public ActionResult SignOutTest(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
             return View();
