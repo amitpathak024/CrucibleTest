@@ -8,16 +8,28 @@ namespace TestingApplication.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Indexes this instance.
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult bindgrid()
+        /// <summary>
+        /// Binds the grid.
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult BindGrid()
         {
             return View();
         }
 
+        /// <summary>
+        /// Abouts this instance.
+        /// </summary>
+        /// <returns></returns>
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -25,6 +37,10 @@ namespace TestingApplication.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Contacts this instance.
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
