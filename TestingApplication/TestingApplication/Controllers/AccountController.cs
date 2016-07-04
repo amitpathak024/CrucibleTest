@@ -79,7 +79,7 @@ namespace TestingApplication.Controllers
             return View();
         }
 
-        public ActionResult testing123(string returnUrl)
+        public ActionResult Testing(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
             return View();
