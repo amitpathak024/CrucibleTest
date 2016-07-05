@@ -85,7 +85,7 @@ namespace TestingApplication.Controllers
             return View();
         }
 
-        public ActionResult loaddata(string returnUrl)
+        public ActionResult LoadData(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
             return View();
