@@ -102,6 +102,14 @@ namespace TestingApplication.Controllers
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
+
+
+        public ActionResult LoadData3(string returnUrl)
+        {
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
         /// <summary>
         /// Shows the loading.
         /// </summary>
