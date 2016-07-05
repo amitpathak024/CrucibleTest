@@ -91,6 +91,11 @@ namespace TestingApplication.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Shows the loading.
+        /// </summary>
+        /// <param name="returnUrl">The return URL.</param>
+        /// <returns></returns>
         public ActionResult ShowLoading(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
